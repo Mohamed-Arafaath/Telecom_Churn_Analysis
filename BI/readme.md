@@ -17,7 +17,7 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ### **1. Summary Dashboard (Page 1)**
 
-![Summary Dashboard](Dashboards/Summary_Dashboard.jpg)
+![Summary Dashboard](Dashboard/Summary Dashboard.png)
 
 - **Purpose**: Provides an overview of churn metrics for **existing customers**.
 - **Data Source**: This dashboard utilizes the `vw_ChurnData` view from the database, which includes only customers with statuses "Churned" or "Stayed."
