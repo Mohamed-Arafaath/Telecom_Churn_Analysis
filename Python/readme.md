@@ -2,6 +2,14 @@
 
 This folder contains all the Python scripts and related files used for predictive analysis in the **Churn Analysis Project**. The scripts leverage libraries such as Pandas, NumPy, and Scikit-learn to preprocess data, train machine learning models, and generate predictions for customer churn.
 
+## **Key Objectives**
+
+- To preprocess the input customer data (`Prediction_Data.xlsx`) for predictive modeling by cleaning and encoding the data.
+- To develop a machine learning model that predicts customer churn probabilities and classifications.
+- To generate actionable insights from predictions for integration into Power BI dashboards.
+- To save the prediction results (`Predictions_output.csv`) for further analysis and visualization.
+- To create a reusable and modular Python script (`churn_prediction.py`) for predictive analytics.
+
 ---
 
 ## **Python Code Overview**
