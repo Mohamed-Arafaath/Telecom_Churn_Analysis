@@ -1,6 +1,6 @@
-# SQL Queries for Churn Analysis Project
+# SQL Queries for Telecom Churn Analysis Project
 
-This folder contains all the SQL queries and scripts used in the **Churn Analysis** project. The SQL scripts were instrumental in preparing the data for analysis in Power BI, creating views for segmentation, and extracting insights for predictive modeling. Below is an overview of the SQL work done in this project:
+This folder contains all the SQL queries and scripts used in the **Telecom Churn Analysis** project. The SQL scripts were instrumental in preparing the data for analysis in Power BI, creating views for segmentation, and extracting insights for predictive modeling. Below is an overview of the SQL work done in this project:
 
 ## **Key Objectives**
 - To preprocess and transform the raw churn data for better usability in Power BI.
