@@ -150,7 +150,7 @@ BI/
 │   ├── Churn_Prediction_Dashboard.png # Screenshot of the Churn Prediction page
 ├── Churn_Analysis.pbix                # Power BI dashboard file
 ├── Power_Query_Transformations_and_DAX_Measures.md # Detailed transformations and measures
-├── README.md                          # This documentation file
+├── readme.md                          # This documentation file
 ~~~
 
 ---
