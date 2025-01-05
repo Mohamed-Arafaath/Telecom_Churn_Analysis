@@ -34,7 +34,7 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ### **2. Churn Reasons Tooltip (Page 2)**
 
-![Churn Reasons Tooltip](Dashboard/Churn_Reasons_Tooltip.png)
+![Churn Reasons Tooltip](Dashboard/Churn_Reasons_Dashboard.png)
 
 - **Purpose**: Explore the primary reasons behind customer churn.
 - **Key Features**:
