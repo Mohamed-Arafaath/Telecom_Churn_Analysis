@@ -31,7 +31,7 @@ This folder contains all the SQL queries and scripts used in the **Churn Analysi
 
 ---
 
-## **Usage**
+## **How to Use** 
 - **`SQL_Queries.sql`**: Contains all SQL queries used in the project in a structured and documented manner.
 - To run these queries:
   1. Ensure the database has the `prod_Churn` table and other required datasets.
