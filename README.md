@@ -6,18 +6,19 @@ The **Telecom Churn Analysis** project is an end-to-end implementation for analy
 
 ## 📁 Repository Structure
 
-~~~plaintext
+```plaintext
 Telecom_Churn_Analysis/
 ├── BI/                                      # Business Intelligence (Power BI Dashboard)
 │   ├── Dashboards/
 │   │   ├── Summary_Dashboard.png            # Screenshot of Summary Dashboard
-│   │   ├── Churn_Reasons_Dashboard.png         # Screenshot of Churn Reasons Dashboard
+│   │   ├── Churn_Reasons_Dashboard.png      # Screenshot of Churn Reasons Dashboard
 │   │   ├── Churn_Prediction_Dashboard.png   # Screenshot of Churn Prediction Dashboard
 │   ├── Churn_Analysis.pbix                  # Power BI file
 │   ├── Power_Query_Transformations_and_DAX_Measures.md # Power Query and DAX documentation
 │   ├── README.md                            # BI folder documentation
 ├── Dataset/
-│   │   ├── Customer_Data.csv
+│   ├── Customer_Data.csv                    # Source dataset used for the analysis
+│   ├── README.md                            # Documentation for the dataset
 ├── Python/                                  # Predictive Analysis using Python
 │   ├── Prediction_Data.xlsx                 # Input data for predictions
 │   ├── Predictions_output.csv               # Output of churn predictions
@@ -26,9 +27,8 @@ Telecom_Churn_Analysis/
 ├── SQL/                                     # SQL Queries and Data Preparation
 │   ├── SQL_Queries.sql                      # All SQL queries used in the project
 │   ├── README.md                            # SQL folder documentation
-├── README.md                                # Main repository documentation
-~~~
-
+├── README.md
+```
 ---
 
 ## 🏆 Project Objectives
@@ -62,6 +62,38 @@ Telecom_Churn_Analysis/
 
 ## 📊 Key Components
 
+# Dataset
+
+The **Dataset** folder contains the raw data used for analysis.
+
+---
+
+## **Customer_Data.csv**
+This is the primary dataset used to populate the `prod_Churn` table in the database.
+
+### **Key Features**
+1. **Demographics**:
+   - Age
+   - Gender
+   - Marital Status
+
+2. **Account Details**:
+   - Tenure
+   - Monthly Charges
+   - Total Charges
+
+3. **Service Usage**:
+   - Internet Service
+   - Phone Service
+   - Additional Services
+
+4. **Churn Status**:
+   - Identifies whether the customer has **"Churned," "Stayed,"** or **"Joined"**.
+
+📂 **Refer to the [`Dataset/README.md`](./readme.md) for more details.**
+
+---
+
 ### 1. **SQL**
 The SQL folder contains queries for:
 - Preprocessing churn data by adding calculated columns (e.g., Churn Status).
@@ -70,7 +102,7 @@ The SQL folder contains queries for:
   - **`vw_JoinData`**: Focuses on joined customers with status "Joined".
 - Segmenting data based on demographics, tenure, and service usage.
 
-📂 **Refer to the [SQL/README.md](./SQL/README.md) for more details.**
+📂 **Refer to the [SQL/README.md](./SQL/readme.md) for more details.**
 
 ---
 
@@ -80,7 +112,7 @@ The Python folder includes scripts for:
 - Training a Gradient Boosting model to predict churn probabilities.
 - Generating predictions saved in `Predictions_output.csv`.
 
-📂 **Refer to the [Python/README.md](./Python/README.md) for more details.**
+📂 **Refer to the [Python/README.md](./Python/readme.md) for more details.**
 
 ---
 
@@ -90,7 +122,7 @@ The BI folder houses the Power BI dashboard, which provides:
 - **Churn Reasons Dashboard**: Exploration of key drivers for churn.
 - **Churn Prediction Dashboard**: Predictive analytics for joined customers using `vw_JoinData`.
 
-📂 **Refer to the [BI/README.md](./BI/README.md) for more details.**
+📂 **Refer to the [BI/README.md](./BI/readme.md) for more details.**
 
 ---
 
