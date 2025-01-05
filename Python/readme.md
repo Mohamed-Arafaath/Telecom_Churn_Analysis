@@ -45,3 +45,53 @@ This folder contains all the Python scripts and related files used for predictiv
    ```bash
    python churn_prediction.py
 
+---
+
+**Prediction_Data.xlsx Analysis**  
+- Contains customer features such as:  
+  - Monthly Charges, Total Charges, Total Refunds, Number of Referrals.  
+- Includes key identifiers like `Customer_ID`.  
+- Used to generate predictions with the trained model.
+
+**Predictions_output.csv Analysis**  
+- Contains the following columns:  
+  - **Customer_ID**: Unique identifier for each customer.  
+  - **Predicted_Churn_Probability**: Probability score (0 to 1) indicating the likelihood of churn.  
+  - **Predicted_Churn**: Binary classification (0 for non-churn, 1 for churn).  
+
+**Example Output:**
+
+| Customer_ID | Predicted_Churn_Probability | Predicted_Churn |
+|-------------|-----------------------------|-----------------|
+| 11098-MAD   | 0.87                        | 1               |
+| 11227-UTT   | 0.15                        | 0               |
+
+---
+
+**How to Use**  
+1. Place `Prediction_Data.xlsx` in the folder.  
+2. Run the Python script (`churn_prediction.py`) using Python 3.8 or higher:
+    ```bash
+    python churn_prediction.py
+    ```
+3. The output file `Predictions_output.csv` will be generated in the same directory.
+
+---
+
+**Dependencies**  
+Install the required Python libraries before running the script:
+```bash
+pip install pandas numpy scikit-learn openpyxl
+```
+
+---
+
+**Folder Structure**
+```plaintext
+Python/
+├── README.md              # Documentation file
+├── churn_prediction.py    # Python script for prediction
+├── Prediction_Data.xlsx   # Input data
+├── Predictions_output.csv # Predicted churn data
+
+
