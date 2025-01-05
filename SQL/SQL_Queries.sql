@@ -1,10 +1,4 @@
-
----
-
-### **SQL Queries**
 ```sql
--- SQL Queries for Churn Analysis Project
-
 -- ========================================
 -- 1. Data Preprocessing
 -- ========================================
