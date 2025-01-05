@@ -1,5 +1,7 @@
 # 📊 Telecom Churn Analysis 
+![Vodafone Logo](Dataset/BankOfAmerica_logo.png)
 
+## Overview
 The **Telecom Churn Analysis** project is an end-to-end implementation for analyzing customer churn patterns, identifying reasons for churn, and predicting potential churners using **SQL**, **Python**, and **Power BI**. The project integrates data engineering, machine learning, and business intelligence to provide actionable insights for improving customer retention strategies.
 
 ---
