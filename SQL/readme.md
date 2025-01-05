@@ -72,5 +72,5 @@ This folder contains all the SQL queries and scripts used in the **Telecom Churn
 
 ```plaintext
 SQL/
-├── README.md          # This documentation file
+├── readme.md          # This documentation file
 ├── SQL_Queries.sql    # Consolidated SQL queries used in the project
