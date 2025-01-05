@@ -92,11 +92,11 @@ This is the primary dataset used to populate the `prod_Churn` table in the datab
 4. **Churn Status**:
    - Identifies whether the customer has **"Churned," "Stayed,"** or **"Joined"**.
 
-📂 **Refer to the [`Dataset/README.md`](./readme.md) for more details.**
+📂 **Refer to the [`Dataset/README.md`](.Dataset/readme.md) for more details.**
 
 ---
 
-### 1. **SQL**
+### 2. **SQL**
 The SQL folder contains queries for:
 - Preprocessing churn data by adding calculated columns (e.g., Churn Status).
 - Creating views:
@@ -108,7 +108,7 @@ The SQL folder contains queries for:
 
 ---
 
-### 2. **Python**
+### 3. **Python**
 The Python folder includes scripts for:
 - Loading and preprocessing the `Prediction_Data.xlsx` file.
 - Training a Gradient Boosting model to predict churn probabilities.
@@ -118,7 +118,7 @@ The Python folder includes scripts for:
 
 ---
 
-### 3. **Power BI**
+### 4. **Power BI**
 The BI folder houses the Power BI dashboard, which provides:
 - **Summary Dashboard**: Analysis of churn for existing customers using `vw_ChurnData`.
 - **Churn Reasons Dashboard**: Exploration of key drivers for churn.
