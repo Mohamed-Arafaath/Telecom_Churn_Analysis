@@ -1,6 +1,6 @@
-# Python Code for Churn Analysis Project
+# Python Code for Telecom Churn Analysis Project
 
-This folder contains all the Python scripts and related files used for predictive analysis in the **Churn Analysis Project**. The scripts leverage libraries such as Pandas, NumPy, and Scikit-learn to preprocess data, train machine learning models, and generate predictions for customer churn.
+This folder contains all the Python scripts and related files used for predictive analysis in the **Telecom Churn Analysis Project**. The scripts leverage libraries such as Pandas, NumPy, and Scikit-learn to preprocess data, train machine learning models, and generate predictions for customer churn.
 
 ## **Key Objectives**
 
