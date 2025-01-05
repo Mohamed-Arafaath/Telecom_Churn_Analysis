@@ -34,7 +34,7 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ### **2. Churn Reasons Dashboard (Page 2)**
 
-![Churn Reasons Dashboard](Dashboards/Churn_Reason_Tooltip.png)
+![Churn Reasons Dashboard](Dashboard/Churn_Reason_Tooltip.png)
 
 - **Purpose**: Explore the primary reasons behind customer churn.
 - **Key Features**:
@@ -50,7 +50,7 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ### **3. Churn Prediction Dashboard (Page 3)**
 
-![Churn Prediction Dashboard](Dashboards/Churn_Prediction_Dashboard.png)
+![Churn Prediction Dashboard](Dashboard/Churn_Prediction_Dashboard.png)
 
 - **Purpose**: Predict future churn for **joined customers** and highlight high-risk individuals for proactive action.
 - **Data Source**: This dashboard uses the `vw_JoinData` view from the database, which includes customers with the status "Joined."
