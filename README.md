@@ -92,7 +92,7 @@ This is the primary dataset used to populate the `prod_Churn` table in the datab
 4. **Churn Status**:
    - Identifies whether the customer has **"Churned," "Stayed,"** or **"Joined"**.
 
-📂 **Refer to the [`Dataset/README.md`](.Dataset/readme.md) for more details.**
+📂 **Refer to the [`Dataset/README.md`](Dataset/readme.md) for more details.**
 
 ---
 
