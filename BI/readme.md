@@ -13,6 +13,16 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ---
 
+## 🔗 Data Source and SQL Processing
+
+- **Data Source**: The primary data for this dashboard is stored in a **Microsoft SQL Server** database.
+- After **uploading the initial dataset** to the SQL Server and performing **data processing** and **cleaning** [SQL_Queries.sql](..\SQL\SQL_Queries.sql) in the SQL folder), two **database views** were created:
+  - **`vw_ChurnData`**: Focuses on existing customers (statuses "Churned" or "Stayed"), used by **Page 1 (Summary)** and **Page 2 (Churn Reasons)**.
+  - **`vw_JoinData`**: Focuses on newly joined customers (status "Joined"), used by **Page 3 (Churn Prediction)** for future churn analysis.
+- These views provide a structured way to filter and analyze relevant segments of customers for churn reporting and prediction.
+
+---
+
 ## 📊 Dashboard Pages
 
 ### **1. Summary Page (Page 1)**
