@@ -55,7 +55,7 @@ This folder contains all the SQL queries and scripts used in the **Telecom Churn
 1. **Dataset**: Ensure the **`Customer_Data.csv`** file is available in the [`Dataset`](../Dataset) folder.
 2. **Database Setup**:
    - Load the dataset into a relational database.
-   - Create the `prod_Churn` table using the structure provided in the dataset's [`README.md`](../Dataset/README.md).
+   - Create the `prod_Churn` table using the structure provided in the dataset's [`README.md`](../Dataset/readme.md).
 
 ### Execution Steps:
 1. Run the SQL queries in the following order:
