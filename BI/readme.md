@@ -149,7 +149,7 @@ BI/
 
 1. Clone the repository:
    ~~~bash
-   git clone https://github.com/<YourUsername>/Telecom_Churn_Analysis
+   git clone (https://github.com/Mohamed-Arafaath/Telecom_Churn_Analysis
    ~~~
 2. Open the `Churn_Analysis.pbix` file in Power BI Desktop.
 3. Refresh the data sources to update metrics.
