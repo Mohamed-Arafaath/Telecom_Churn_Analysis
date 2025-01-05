@@ -4,7 +4,7 @@ This folder contains all the Python scripts and related files used for predictiv
 
 ---
 
-## **Overview**
+## **Python Code Overview**
 
 1. **Prediction_Data.xlsx**:
    - Source dataset containing customer details for prediction, including monthly charges, total charges, refunds, and referrals.
