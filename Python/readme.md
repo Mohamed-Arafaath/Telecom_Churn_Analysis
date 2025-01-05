@@ -117,7 +117,7 @@ pip install pandas numpy scikit-learn openpyxl
 **Folder Structure**
 ```plaintext
 Python/
-├── README.md              # Documentation file
+├── readme.md              # Documentation file
 ├── churn_prediction.py    # Python script for prediction
 ├── Prediction_Data.xlsx   # Input data
 ├── Predictions_output.csv # Predicted churn data
