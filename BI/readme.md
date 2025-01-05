@@ -15,9 +15,9 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ## 📊 Dashboard Pages
 
-### **1. Summary Dashboard (Page 1)**
+### **1. Summary Page (Page 1)**
 
-![Summary Dashboard](Dashboard/Summary_Dashboard.png)
+![Summary Page](Dashboard/Summary_Dashboard.png)
 
 - **Purpose**: Provides an overview of churn metrics for **existing customers**.
 - **Data Source**: This dashboard utilizes the `vw_ChurnData` view from the database, which includes only customers with statuses "Churned" or "Stayed."
@@ -32,9 +32,9 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ---
 
-### **2. Churn Reasons Dashboard (Page 2)**
+### **2. Churn Reasons Tooltip (Page 2)**
 
-![Churn Reasons Dashboard](Dashboard/Churn_Reasons_Tooltip.png)
+![Churn Reasons Tooltip](Dashboard/Churn_Reasons_Tooltip.png)
 
 - **Purpose**: Explore the primary reasons behind customer churn.
 - **Key Features**:
@@ -48,9 +48,9 @@ The **Telecom Churn Analysis Power BI Dashboard** offers comprehensive insights 
 
 ---
 
-### **3. Churn Prediction Dashboard (Page 3)**
+### **3. Churn Prediction Page (Page 3)**
 
-![Churn Prediction Dashboard](Dashboard/Churn_Prediction_Dashboard.png)
+![Churn Prediction Page](Dashboard/Churn_Prediction_Dashboard.png)
 
 - **Purpose**: Predict future churn for **joined customers** and highlight high-risk individuals for proactive action.
 - **Data Source**: This dashboard uses the `vw_JoinData` view from the database, which includes customers with the status "Joined."
@@ -169,5 +169,3 @@ For questions or contributions, feel free to raise an issue or contact me:
 
 **Author**: [Mohamed Arafaath](https://www.linkedin.com/in/mohamed-arafaath/)  
 **Email**: mohamed_arafaath@outlook.com  
-
----
