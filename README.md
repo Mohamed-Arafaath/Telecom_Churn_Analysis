@@ -16,6 +16,8 @@ Telecom_Churn_Analysis/
 │   ├── Churn_Analysis.pbix                  # Power BI file
 │   ├── Power_Query_Transformations_and_DAX_Measures.md # Power Query and DAX documentation
 │   ├── README.md                            # BI folder documentation
+├── Dataset/
+│   │   ├── Customer_Data.csv
 ├── Python/                                  # Predictive Analysis using Python
 │   ├── Prediction_Data.xlsx                 # Input data for predictions
 │   ├── Predictions_output.csv               # Output of churn predictions
