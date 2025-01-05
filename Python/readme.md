@@ -29,7 +29,7 @@ This folder contains all the Python scripts and related files used for predictiv
 - Encoded categorical features to ensure compatibility with machine learning algorithms.
 
 ### **2. Model Training**
-- Utilized a Gradient Boosting Classifier to predict churn probabilities.
+- Utilized a **Random Forest Classifier** to predict churn probabilities.
 - Split data into training and testing sets for model evaluation.
 - Performed hyperparameter tuning to improve model performance.
 
