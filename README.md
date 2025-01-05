@@ -1,4 +1,4 @@
-# 📊 Telecom Churn Analysis - End-to-End Project
+# 📊 Telecom Churn Analysis 
 
 The **Telecom Churn Analysis** project is an end-to-end implementation for analyzing customer churn patterns, identifying reasons for churn, and predicting potential churners using **SQL**, **Python**, and **Power BI**. The project integrates data engineering, machine learning, and business intelligence to provide actionable insights for improving customer retention strategies.
 
