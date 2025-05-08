@@ -111,7 +111,7 @@ The SQL folder contains queries for:
 ### 3. **Python**
 The Python folder includes scripts for:
 - Loading and preprocessing the `Prediction_Data.xlsx` file.
-- Training a Gradient Boosting model to predict churn probabilities.
+- Training a Random Forest model to predict future churning.
 - Generating predictions saved in `Predictions_output.csv`.
 
 📂 **Refer to the [Python/README.md](./Python/readme.md) for more details.**
@@ -135,7 +135,7 @@ The BI folder houses the Power BI dashboard, which provides:
    - Create views for existing and joined customers (`vw_ChurnData`, `vw_JoinData`).
 
 2. **Predictive Modeling (Python)**:
-   - Use machine learning to predict churn probabilities.
+   - Use machine learning to predict future churning.
    - Export the predictions for integration with Power BI.
 
 3. **Visualization (Power BI)**:
