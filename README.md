@@ -132,7 +132,7 @@ The BI folder houses the Power BI dashboard, which provides:
 
 1. **Data Preparation (SQL)**:
    - Clean and transform the raw churn data.
-   - Create views for existing and joined customers (`vw_ChurnData`, `vw_JoinData`).
+   - Create views for churned, existing and joined customers (`vw_ChurnData`, `vw_JoinData`).
 
 2. **Predictive Modeling (Python)**:
    - Use machine learning to predict future churning.
